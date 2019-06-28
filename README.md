@@ -60,7 +60,7 @@ Here are my custom scripts for my LetsRobot robot. They are designed to be copie
         ```
         nano letsrobot/letsrobot.conf
         ```
-    2. Enter your letsRobot username, RobotID, and CameraID
+    2. Enter your letsRobot Username, RobotID, CameraID, and Stream Key
         ```
         # This is your username on the letsrobot site. This is the user that is allowed
         # to issue commands via chat 
@@ -72,6 +72,14 @@ Here are my custom scripts for my LetsRobot robot. They are designed to be copie
         
         # Your robots camera id
         camera_id=YourCameraID
+        
+        # Motor controller type for your robot. Current valid types are serial_board,
+        # motor_hat, gopigo2, gopigo3, l298n, motozero, pololu, adafruit_pwm, owi_arm
+        # or none.
+        type=motor_hat
+        
+        # Your stream key, it's generally a good idea to change this.
+        stream_key=hello
         ```
     3. **ctrl**-**x** to exit, type **y** and **enter** to save.
 6. ### Reboot
