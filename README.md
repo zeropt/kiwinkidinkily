@@ -87,3 +87,5 @@ Here are my custom scripts for my LetsRobot robot. They are designed to be copie
     ```
     sudo reboot
     ```
+### Congratulations, you've got a fully functional, telepresence, kiwi robot!
+![Congrats](documentation/TheRobot.JPG)
